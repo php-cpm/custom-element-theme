@@ -14,7 +14,7 @@ $--color-transition-base: color .2s cubic-bezier(.645,.045,.355,1) !default;
 $--color-white: #fff;
 $--color-black: #000;
 
-$--color-primary: #262729 !default;
+$--color-primary: #22bccd !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%); /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%); /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%); /* 79bbff */
@@ -25,9 +25,9 @@ $--color-primary-light-7: mix($--color-white, $--color-primary, 70%); /* c6e2ff 
 $--color-primary-light-8: mix($--color-white, $--color-primary, 80%); /* d9ecff */
 $--color-primary-light-9: mix($--color-white, $--color-primary, 90%); /* ecf5ff */
 
-$--color-success: #409167 !default;
-$--color-warning: #9DA408 !default;
-$--color-danger: #B3450E !default;
+$--color-success: #67c23a !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
 $--color-info: #0A76A4 !default;
 
 $--color-success-light: mix($--color-white, $--color-success, 80%);
@@ -40,10 +40,10 @@ $--color-warning-lighter: mix($--color-white, $--color-warning, 90%);
 $--color-danger-lighter: mix($--color-white, $--color-danger, 90%);
 $--color-info-lighter: mix($--color-white, $--color-info, 90%);
 
-$--color-text-primary: #2d2f33 !default;
-$--color-text-regular: #5a5e66 !default;
-$--color-text-secondary: #878d99 !default;
-$--color-text-placeholder: #b4bccc !default;
+$--color-text-primary: #1f2d3d !default;
+$--color-text-regular: #304156 !default;
+$--color-text-secondary: #909399 !default;
+$--color-text-placeholder: #f0f2f5 !default;
 
 /* Link
 -------------------------- */
@@ -58,9 +58,9 @@ $--background-color-base: #f5f7fa;
 -------------------------- */
 $--border-width-base: 1px;
 $--border-style-base: solid;
-$--border-color-base: #d8dce5 !default;
-$--border-color-light: #dfe4ed !default;
-$--border-color-lighter: #e6ebf5 !default;
+$--border-color-base: #c0c4cc !default;
+$--border-color-light: #e4e7ed !default;
+$--border-color-lighter: #e4e7ed !default;
 $--border-color-extra-light: #edf2fc !default;
 $--border-color-hover: $--color-text-placeholder;
 $--border-base: $--border-width-base $--border-style-base $--border-color-base;
@@ -407,7 +407,7 @@ $--button-small-padding-horizontal: 15px;
 $--button-mini-font-size: 12px;
 $--button-mini-border-radius: #{$--border-radius-base - 1};
 $--button-mini-padding-vertical: 7px;
-$--button-mini-padding-horizontal: 15px;
+$--button-mini-padding-horizontal: 8px;
 
 $--button-default-color: $--color-text-regular;
 $--button-default-fill: $--color-white;

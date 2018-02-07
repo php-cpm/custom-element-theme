@@ -25,6 +25,15 @@ et
 # gulp css name wrapper
 gulp
 
+# more cmds
+
+# edited mixin file
+cp -R mixins/_button.scss node_modules/element-theme-chalk/src/mixins/
+
+# just et && gulp
+npm run build
+# just cp mixin file to nodeModule
+npm run mixin
 ```
 
 

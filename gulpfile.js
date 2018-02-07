@@ -3,7 +3,7 @@ var gulp = require('gulp')
 var cleanCSS = require('gulp-clean-css');
 var cssWrap = require('gulp-css-wrap');
 
-var customThemeName='.custom-theme'
+var customThemeName='.green_pay_theme'
 
 gulp.task('css-wrap', function() {
   return gulp.src( path.resolve('./theme/index.css'))

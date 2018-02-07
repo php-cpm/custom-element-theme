@@ -12,6 +12,9 @@
   ],
   "main": "index.js",
   "scripts": {
+    "build": "et && gulp",
+    "mixin": "cp -R mixins/_button.scss node_modules/element-theme-chalk/src/mixins/",
+    "cp": "cp -R dist/index.css ../green-admin/src/assets/green_pay_theme",
     "test": "xo"
   },
   "xo": {
