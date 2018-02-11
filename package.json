@@ -13,8 +13,9 @@
   "main": "index.js",
   "scripts": {
     "build": "et && gulp",
-    "mixin": "cp -R mixins/_button.scss node_modules/element-theme-chalk/src/mixins/",
+    "mixin": "cp -R chalk/* node_modules/element-theme-chalk/src/",
     "cp": "cp -R dist/index.css ../green-admin/src/assets/green_pay_theme",
+    "auto": "npm run mixin && npm run build && npm run cp",
     "test": "xo"
   },
   "xo": {
